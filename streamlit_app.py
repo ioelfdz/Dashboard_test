@@ -20,7 +20,7 @@ st.set_page_config(
 )
 
 # Mostrar la imagen con Plotly
-logo = Path(__file__).parent/'data/o4a_logo.png'
+#logo = Path(__file__).parent/'data/o4a_logo.png'
 #st.sidebar.image(logo_add)
 
 
