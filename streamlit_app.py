@@ -21,7 +21,7 @@ st.set_page_config(
 
 # Mostrar la imagen con Plotly
 logo = Path(__file__).parent/'data/o4a_logo.gif'
-st.sidebar.image(logo)
+st.sidebar.image("logo")
 
 
 #DATA_FILENAME = Path(__file__).parent/'data/O4All_shipped.csv'
