@@ -20,8 +20,8 @@ st.set_page_config(
 )
 
 # Mostrar la imagen con Plotly
-logo_add = Path(__file__).parent/'data/o4a_logo.png'
-st.sidebar.image(logo_add)
+logo = Path(__file__).parent/'data/o4a_logo.png'
+#st.sidebar.image(logo_add)
 
 
 #DATA_FILENAME = Path(__file__).parent/'data/O4All_shipped.csv'
@@ -31,6 +31,7 @@ st.sidebar.image(logo_add)
 
 
 with st.sidebar:
+    st.sidebar.image(logo)
     selected = option_menu(
     menu_title = "Main Menu",
     options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
