@@ -31,12 +31,12 @@ logo = Path(__file__).parent/'data/o4a_logo.png'
 
 
 with st.sidebar:
-    image = logo
+    st.image(logo,width=100)
     selected = option_menu(
-    menu_title = "Main Menu",
-    options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
-    icons = ["activity","activity","activity","activity", "activity"],
-    menu_icon = "cast",
-    default_index = 0,
-    #orientation = "horizontal",
+        menu_title = "Main Menu",
+        options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
+        icons = ["activity","activity","activity","activity", "activity"],
+        menu_icon = "cast",
+        default_index = 0,
+        #orientation = "horizontal",
 )
