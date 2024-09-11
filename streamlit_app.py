@@ -31,7 +31,7 @@ logo = Path(__file__).parent/'data/o4a_logo.png'
 
 
 with st.sidebar:
-    st.sidebar.image(logo)
+    #st.sidebar.image(logo)
     selected = option_menu(
     menu_title = "Main Menu",
     options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
