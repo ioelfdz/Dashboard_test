@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dashboardtest:
+    image: dashboardtest
+    build:
+      context: .
+      dockerfile: ./Dockerfile
