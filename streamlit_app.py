@@ -29,9 +29,8 @@ logo = Path(__file__).parent/'data/o4a_logo.png'
 #DATA_FILENAME_2 = Path(__file__).parent/'data/O4All_non_shipped.csv'
 #df_2 = pd.read_csv(DATA_FILENAME_2)
 
-
+st.image(logo,width=100)
 with st.sidebar:
-    st.image(logo,width=100)
     selected = option_menu(
         menu_title = "Main Menu",
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
