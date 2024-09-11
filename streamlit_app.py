@@ -20,8 +20,8 @@ st.set_page_config(
 )
 
 # Mostrar la imagen con Plotly
-#logo = Path(__file__).parent/'data/o4a_logo.png'
-#st.sidebar.image(logo_add)
+logo = Path(__file__).parent/'data/o4a_logo.png'
+st.sidebar.image(logo_add)
 
 
 #DATA_FILENAME = Path(__file__).parent/'data/O4All_shipped.csv'
@@ -29,7 +29,6 @@ st.set_page_config(
 #DATA_FILENAME_2 = Path(__file__).parent/'data/O4All_non_shipped.csv'
 #df_2 = pd.read_csv(DATA_FILENAME_2)
 
-st.image(logo,width=100)
 with st.sidebar:
     selected = option_menu(
         menu_title = "Main Menu",
