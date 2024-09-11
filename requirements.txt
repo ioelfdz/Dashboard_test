@@ -1,0 +1,7 @@
+streamlit-option-menu
+streamlit
+snowflake-connector-python
+pandas
+plotly-express
+datetime
+pillow
