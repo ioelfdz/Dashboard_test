@@ -11,6 +11,8 @@ import datetime
 from datetime import datetime, timedelta
 from pathlib import Path
 from PIL import Image
+import base64
+import image
 
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
@@ -24,6 +26,14 @@ logo = Path(__file__).parent/'data/o4a_logo.gif'
 #st.sidebar.image("logo")
 #st.sidebar.image(load_image("logo"), use_column_width=True)
 
+# Load and display sidebar image
+img_path = "data/o4a_logo.png"
+img_base64 =img_to_base64(img_path)
+if img_base64:
+    st.sidebar.markdown(
+        f'<img src="data:image/png;base64,{img_base64}" >',
+        unsafe_allow_html=True,
+    )
 
 #DATA_FILENAME = Path(__file__).parent/'data/O4All_shipped.csv'
 #df_1 = pd.read_csv(DATA_FILENAME)
