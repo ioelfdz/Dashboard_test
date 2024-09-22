@@ -37,7 +37,7 @@ with st.sidebar:
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
         icons = ["activity","activity","activity","activity", "activity"],
         menu_icon = "cast",
-        #menu_icon = logo,
+        sidebarlogo = Image.open('logo')
         default_index = 0,
         #orientation = "horizontal",
 )
