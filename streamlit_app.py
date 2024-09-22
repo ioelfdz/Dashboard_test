@@ -31,8 +31,6 @@ logo = Path(__file__).parent/'data/o4a_logo.gif'
 #df_2 = pd.read_csv(DATA_FILENAME_2)
 
 with st.sidebar:
-    #st.image(logo, width=100)
-    sidebarlogo = Image.open("logo"),
     selected = option_menu(
         menu_title = "Main Menu",
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
