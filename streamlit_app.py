@@ -31,19 +31,8 @@ st.set_page_config(
     page_icon="data/o4a_icon.jpg",
 )
 
-# Mostrar la imagen con Plotly
-logo = Path(__file__).parent/'data/o4a_logo.png'
-#st.sidebar.image("logo")
-#st.sidebar.image(load_image("logo"), use_column_width=True)
-
-st.sidebar.markdown(
-        f'<img src="data/o4a_logo.png" >',
-        unsafe_allow_html=True,
-    )
-
 # Load and display sidebar image
-#img_path = "data/o4a_logo.png"
-#img_base64 =img_to_base64(img_path)
+logo = Path(__file__).parent/'data/o4a_logo.png'
 img_base64 =img_to_base64(logo)
 if img_base64:
     st.sidebar.markdown(
