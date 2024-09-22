@@ -32,7 +32,7 @@ logo = Path(__file__).parent/'data/o4a_logo.gif'
 
 with st.sidebar:
     #st.image(logo, width=100)
-    sidebarlogo = Image.open(Path(__file__).parent/'data/o4a_logo.gif'),
+    sidebarlogo = Image.open("logo"),
     selected = option_menu(
         menu_title = "Main Menu",
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
