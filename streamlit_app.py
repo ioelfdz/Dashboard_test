@@ -32,18 +32,23 @@ st.set_page_config(
 )
 
 # Mostrar la imagen con Plotly
-logo = Path(__file__).parent/'data/o4a_logo.gif'
+logo = Path(__file__).parent/'data/o4a_logo.png'
 #st.sidebar.image("logo")
 #st.sidebar.image(load_image("logo"), use_column_width=True)
 
-# Load and display sidebar image
-img_path = "data/o4a_logo.png"
-img_base64 =img_to_base64(img_path)
-if img_base64:
-    st.sidebar.markdown(
-        f'<img src="data:image/png;base64,{img_base64}" >',
+st.sidebar.markdown(
+        f'<img src="data/o4a_logo.png" >',
         unsafe_allow_html=True,
     )
+
+# Load and display sidebar image
+#img_path = "data/o4a_logo.png"
+#img_base64 =img_to_base64(img_path)
+#if img_base64:
+#    st.sidebar.markdown(
+#        f'<img src="data:image/png;base64,{img_base64}" >',
+#        unsafe_allow_html=True,
+#    )
 
 #DATA_FILENAME = Path(__file__).parent/'data/O4All_shipped.csv'
 #df_1 = pd.read_csv(DATA_FILENAME)
