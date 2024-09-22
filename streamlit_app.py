@@ -22,7 +22,7 @@ st.set_page_config(
 # Mostrar la imagen con Plotly
 logo = Path(__file__).parent/'data/o4a_logo.png'
 #st.sidebar.image("logo")
-st.sidebar.image(load_image("logo"), use_column_width=True)
+#st.sidebar.image(load_image("logo"), use_column_width=True)
 
 
 #DATA_FILENAME = Path(__file__).parent/'data/O4All_shipped.csv'
@@ -31,6 +31,7 @@ st.sidebar.image(load_image("logo"), use_column_width=True)
 #df_2 = pd.read_csv(DATA_FILENAME_2)
 
 with st.sidebar:
+    image = "logo"
     selected = option_menu(
         menu_title = "Main Menu",
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
