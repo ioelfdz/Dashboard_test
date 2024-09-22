@@ -36,7 +36,8 @@ with st.sidebar:
         menu_title = "Main Menu",
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
         icons = ["activity","activity","activity","activity", "activity"],
-        menu_icon = "cast",
+        #menu_icon = "cast",
+        menu_icon = "logo",
         default_index = 0,
         #orientation = "horizontal",
 )
