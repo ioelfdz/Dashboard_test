@@ -32,7 +32,7 @@ st.set_page_config(
 )
 
 # Load and display sidebar image
-logo = Path(__file__).parent/'data/o4a_logo.png'
+logo = Path(__file__).parent/'data/o4a_logo_2.png'
 img_base64 =img_to_base64(logo)
 if img_base64:
     st.sidebar.markdown(
