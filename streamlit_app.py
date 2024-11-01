@@ -29,7 +29,7 @@ st.set_page_config(
     layout='wide',
     page_title='One4All Rojo PE Charts',
     #page_icon=':earth_americas:', # This is an emoji shortcode. Could be a URL too.
-    page_icon="img/o4a_icon.jpg",
+    page_icon="img/o4a_icon.png",
 )
 
 # Load and display sidebar image
