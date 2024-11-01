@@ -50,8 +50,8 @@ with st.sidebar:
     selected = option_menu(
         menu_title = "Main Menu",
         options = ["SWBD","LVDO","MC-MCAR","SureSeT","Jobs Journey Map"],
-        icons = ["cast","cast","cast","cast", "watching"],
-        menu_icon = "none",
+        icons = ["graph-up-arrow","cast","cast","cast", "geo-alt"],
+        menu_icon = "home",
         default_index = 0,
         #orientation = "horizontal",
 )
